@@ -1,8 +1,16 @@
-
+import React, {Fragment} from 'react';
+import Producto from '../../components/Producto';
+import Productos from '../../components/Productos';
 
 function App() {
   return (
-    <h1>Desde App</h1>
+    <Fragment>
+      <h1>Desde App</h1>
+      <Producto 
+        nombre="Bubu"
+      />
+      <Productos />
+    </Fragment>
   );
 }
 
