@@ -5,7 +5,7 @@ import Productos from '../../components/Productos';
 function App() {
   return (
     <Fragment>
-      <h1>Desde App</h1>
+      <h1>Desde App n.n/</h1>
       <Producto 
         nombre="Bubu"
       />
