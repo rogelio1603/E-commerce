@@ -13,6 +13,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "start": "react-scripts start",
     "lint": "eslint --ext .js,.jsx",
     "prettier": "prettier \"**/*.+(jsx|js|json)\"",
     "format": "npm run prettier -- --write",
@@ -41,10 +42,14 @@
     ]
   },
   "devDependencies": {
+    "@emotion/core": "^10.0.35",
+    "@emotion/styled": "^10.0.27",
+    "axios": "^0.21.0",
     "eslint-config-prettier": "^6.15.0",
     "eslint-config-react-app": "^6.0.0",
     "eslint-plugin-jest": "^24.1.0",
     "eslint-plugin-react": "^7.21.5",
+    "react-router-dom": "^5.2.0",
     "husky": "^4.3.0",
     "lint-staged": "^10.5.0",
     "prettier": "^2.1.2"
