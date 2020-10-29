@@ -1,13 +1,13 @@
 import React, { Fragment } from 'react';
-import Producto from '../../components/NuevoProducto';
-import Productos from '../../components/Productos';
+import Product from '../../components/NewProduct';
+import Products from '../../components/Products';
 
 function App() {
   return (
     <Fragment>
-      <h1>Desde App</h1>
-      <Producto nombre="Bubu" />
-      <Productos />
+      <h1>In App</h1>
+      <Product nombre="Bubu" />
+      <Products />
     </Fragment>
   );
 }
